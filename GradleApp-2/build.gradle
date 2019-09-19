@@ -1,0 +1,21 @@
+
+plugins {
+    id 'java'
+}
+repositories {
+    mavenCentral()
+}
+sourceCompatibility=1.8
+targetCompatibility=1.8
+
+dependencies {
+	
+	compile 'org.springframework:spring-context:5.1.8.RELEASE'
+	compile 'org.springframework:spring-orm:5.1.8.RELEASE'
+	compile 'org.hibernate:hibernate-core:5.3.10.Final'
+	compile 'mysql:mysql-connector-java:8.0.17'
+	compile 'org.projectlombok:lombok:1.18.8'
+	testCompile 'junit:junit:4.12'
+	
+
+}

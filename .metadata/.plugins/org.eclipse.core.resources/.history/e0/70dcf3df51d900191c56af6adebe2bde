@@ -1,0 +1,19 @@
+package com.app.pojo;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import lombok.Data;
+
+@Data
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
+public class Book {
+
+	private Integer bookIsbn;
+	private String bookName;
+	private String authName;
+	private String authEmail;
+	private Double bookPrice;
+}

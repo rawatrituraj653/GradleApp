@@ -1,0 +1,16 @@
+package com.nit.hateoas.rest;
+
+import javax.validation.constraints.NegativeOrZero;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
+public class Book {
+	private String bookId;
+	private String bookName;
+	private Double bookPrice;
+}

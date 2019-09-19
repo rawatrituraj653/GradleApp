@@ -1,0 +1,5 @@
+package com.nit.hateoas.pojo;
+
+public class Author {
+
+}

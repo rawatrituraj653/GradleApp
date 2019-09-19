@@ -1,0 +1,17 @@
+package com.nit.hateoas.pojo;
+
+
+import org.springframework.hateoas.ResourceSupport;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
+public class Book extends ResourceSupport{
+	private String bookId;
+	private String bookName;
+	private Double bookPrice;
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+E:\GradleProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1437642786.index
+\GradleWebApp1\src\main\java
+E:\GradleProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\289961519.index
+\SpringBootGradleApp\src\main\java

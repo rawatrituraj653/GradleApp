@@ -1,0 +1,4 @@
+server.port=6060
+server.servlet.context-path=/SBAPP
+spring.mvc.view.prefix=/WEB-INF/views
+spring.mvc.view.suffix=.jsp
