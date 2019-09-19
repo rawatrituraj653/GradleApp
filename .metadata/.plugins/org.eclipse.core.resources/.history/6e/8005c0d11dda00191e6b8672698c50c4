@@ -1,5 +1,0 @@
-package com.nit.hateoas.rest;
-
-public class BookRestController {
-
-}
